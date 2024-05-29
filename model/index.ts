@@ -119,7 +119,7 @@ export class ChatModelFactory {
     this.modelMap.set(Site.OpenAI, new OpenAI({ name: Site.OpenAI }));
     // this.modelMap.set(Site.Jasper, new Jasper({ name: Site.Jasper }));
     // this.modelMap.set(Site.Pap, new Pap({ name: Site.Pap }));
-    // this.modelMap.set(Site.MyShell, new MyShell({ name: Site.MyShell }));
+    this.modelMap.set(Site.MyShell, new MyShell({ name: Site.MyShell }));
     // this.modelMap.set(Site.AcyToo, new AcyToo({ name: Site.AcyToo }));
     this.modelMap.set(Site.Google, new Google({ name: Site.Google }));
     this.modelMap.set(Site.WWW, new WWW({ name: Site.WWW }));
