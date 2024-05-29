@@ -7,3 +7,5 @@ node_modules/
 run/
 ,
 dist/
+# Local Netlify folder
+.netlify
